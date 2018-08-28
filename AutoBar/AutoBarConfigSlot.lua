@@ -13,7 +13,7 @@
 
 AutoBarConfigSlot = {};
 
-local L = AceLibrary("AceLocale-2.1"):GetInstance("AutoBar", true);
+local L = AceLibrary("AceLocale-2.2"):new("AutoBar")
 local Compost = AceLibrary("Compost-2.0");
 
 

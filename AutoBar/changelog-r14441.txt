@@ -1,93 +1,245 @@
-------------------------------------------------------------------------
-r14441 | toadkiller | 2006-10-19 19:58:27 -0400 (Thu, 19 Oct 2006) | 2 lines
+-- 1.12.06.10 beta
+-- Make Drag Handle hideable again
+-- Dock to bottom right action bar, left or right side of it.
 
-AutoBar:
-Updated Chinese, tx to PDI175
-------------------------------------------------------------------------
-r14407 | toadkiller | 2006-10-19 11:06:03 -0400 (Thu, 19 Oct 2006) | 2 lines
+-- 1.12.06.09
+-- Switch to Ace Event for timers
+-- Upgrade align buttons option to have any combination of vertical and horizontal alignment (9 options).
+-- Fix toc for Ace svn
 
-AutoBar:
--Working externals finally I think
-------------------------------------------------------------------------
-r14404 | toadkiller | 2006-10-19 10:43:12 -0400 (Thu, 19 Oct 2006) | 2 lines
+-- 1.12.06.08
+-- Korean + some more incremental ACE Locale changes for all languages.
 
-AutoBar:
--I think this is a property change.  Attempting to get the entire ace2 lib to save text space.
-------------------------------------------------------------------------
-r14402 | toadkiller | 2006-10-19 10:27:50 -0400 (Thu, 19 Oct 2006) | 2 lines
+-- 1.12.06.07
+-- Renamed files ACE Locale style + some incremental ACE Locale changes for all languages.
+-- Deleted obsolete dependencies and files.
+-- Toc changes to support ace & ace wiki.
 
-AutoBar:
-- Make the Drag Handle hideable again
-------------------------------------------------------------------------
-r14338 | toadkiller | 2006-10-18 22:25:14 -0400 (Wed, 18 Oct 2006) | 4 lines
+-- 1.12.06.06
+-- Actually separate display editing from slots editing for Character vs Shared.
+-- This clears up a crasher & some non-obvious behavior after a reset.
 
-Autobar:
-- Switch to Ace Event for timers 
-- Upgrade align buttons option to have any combination of vertical and horizontal alignment (9 options). 
-- Fix toc for Ace svn
-------------------------------------------------------------------------
-r14294 | toadkiller | 2006-10-18 20:49:28 -0400 (Wed, 18 Oct 2006) | 2 lines
+-- 1.12.06.05
+-- Lock all bars option for drag handle + 30 second timeout on the unlock.  No more accidentally dragging action bar items around!
+-- Cleared up a case of algorithm necrosis
+-- Looks like Character layout got broken.  Will be fixed next version.  Use Shared layout for now.
 
-Autobar:
-Ok finally Dewdrop & not DewDrop.
-------------------------------------------------------------------------
-r14242 | rabbit | 2006-10-18 13:55:16 -0400 (Wed, 18 Oct 2006) | 2 lines
+-- 1.12.06.04
+-- Fixed some Compost library issues.
+-- Fixed a couple of spots where non tables were fed into the slots list again.
 
-AutoBar:
-- It's "Dewdrop", not "DewDrop".
-------------------------------------------------------------------------
-r14221 | toadkiller | 2006-10-18 05:30:27 -0400 (Wed, 18 Oct 2006) | 3 lines
+-- 1.12.06.03
+-- Remove single item slot option.  Its pretty pointless & prevents all kinds of options.
+-- Compost-2.0
+-- oSkin support checkbox on profile tab.  Random results on choose category / view category dialog though.
 
-Autobar:
-Still messing with toc.  tx for changes rabbit.
-Switch to Ace event for timers.
-------------------------------------------------------------------------
-r14189 | rabbit | 2006-10-17 16:20:44 -0400 (Tue, 17 Oct 2006) | 2 lines
+-- 1.12.06.02
+-- Fix embedded library issue
 
-AutoBar:
-- Fix trying to index ? error.
-------------------------------------------------------------------------
-r14187 | rabbit | 2006-10-17 16:10:59 -0400 (Tue, 17 Oct 2006) | 2 lines
+-- 1.12.06.01
+-- Ace 2
+-- Dewdrop-2.0
+-- Boiled clams moved to bonus category
+-- Do not flash the popup when using keybinding
+-- Harvest festival foods
+-- Korean, tx Sayclub!
 
-AutoBar:
-- Err, PT, not SEE.
-------------------------------------------------------------------------
-r14186 | rabbit | 2006-10-17 16:08:56 -0400 (Tue, 17 Oct 2006) | 2 lines
+-- 1.12.05
+-- Ok, here it is: the release version of the profiling system.
+-- Changed defaults so profile is Single for people with existing Character layer buttons, and Standard profile if not.
+-- Dense Dynamite
+-- Default noPopup for mount changed to arrangeOnUse.  A better way to go now that mounts are cheap.
 
-AutoBar:
-- Fix OptionalDeps.
-------------------------------------------------------------------------
-r14185 | kebinusan | 2006-10-17 15:59:22 -0400 (Tue, 17 Oct 2006) | 1 line
+-- 1.12.04.12
+-- Korean
+-- Label Combined Layer View & Layer Edit Sections.
+-- Hide edit layer buttons that are not enabled.
+-- Config Tooltips.
 
-AutoBar: Attempt to fix externals for addon
-------------------------------------------------------------------------
-r14044 | toadkiller | 2006-10-15 19:37:06 -0400 (Sun, 15 Oct 2006) | 2 lines
+-- 1.12.04.11
+-- View Slot now has a red background and appropriate title and the errant button is now properly hidden.
+-- Added some text directing you to the Slots tab for editing as well.
+-- Edit Slot dialog has a slightly green background to indicate editing is possible.
 
-Autobar:
-still trying to get a working TOC for the wiki
-------------------------------------------------------------------------
-r13947 | toadkiller | 2006-10-15 00:08:21 -0400 (Sun, 15 Oct 2006) | 2 lines
+-- 1.12.04.10
+-- Winterfall Firewater
+-- Removed some duplicates in the pet food meat section
+-- Revert Button for config so you can undo unintended changes & experiment more freely
+-- Basic and Class layers now editable as well
+-- Quick Setup & Reset buttons: Single, Shared, Custom as well as blank slate button.
 
-Autobar:
-Add AutoBarItemList back in
-------------------------------------------------------------------------
-r13945 | toadkiller | 2006-10-15 00:03:42 -0400 (Sun, 15 Oct 2006) | 2 lines
+-- 1.12.04.09
+-- Chinese & Korean courtesy of the usual suspects
+-- Runes added to potion slot
 
-Autobar:
-Slightly more ACE Locale 2.1
-------------------------------------------------------------------------
-r13927 | toadkiller | 2006-10-14 21:49:50 -0400 (Sat, 14 Oct 2006) | 2 lines
+-- 1.12.04.08
+-- Fixed dragging slots around on the slots tab.
+-- Can now drag from the slot view at the top to the slots being edited at the bottom as well.
+-- Fixed slot view not updating when selecting profile layers in the profile
 
-Autobar:
-remove old dewdrop lib
-------------------------------------------------------------------------
-r13783 | toadkiller | 2006-10-13 07:14:56 -0400 (Fri, 13 Oct 2006) | 2 lines
+-- 1.12.04.07
+-- Added a zeroing out category called "Clear Slot" as well as a button for it on the edit slot dialog.
 
-AutoBar:
-Trying to set externals
-------------------------------------------------------------------------
-r13782 | toadkiller | 2006-10-13 06:35:34 -0400 (Fri, 13 Oct 2006) | 2 lines
+-- 1.12.04.06
+-- Simplified profile interface
+-- Now has 4 shared profiles, selectable under profile tab
+-- Fixed Smart Self Cast bug.
+-- Added Smart Self Cast to defaults
+-- Smart Self Cast remains partly broken in its current implementation until it gets a rewrite
+-- You can turn the individual ones on but not necessarily off if they are part of the defaults etc.
 
-AutoBar:
-checkin take 2
-------------------------------------------------------------------------
+-- 1.12.04.05
+-- Added Clear Slot category.
+
+-- 1.12.04.04
+-- Fixed warrior rage potion slot conflicting with heal potions
+
+-- 1.12.04.03
+-- Class default bug fix
+-- Arathi Basin Food upgrade, tx Ghoschdi
+-- Korean, tx Sayclub
+-- Expanded slot list to 16.  Removed the clunky movement buttons.  Use drag & drop to reorder instead.
+-- Split out more code for the various frames
+-- Fixed autoselfcast for now.  Needs a better implementation.
+-- Slot View area has tooltips again & clicking them brings up a non-editable Slot View.
+
+-- 1.12.04.01
+-- Profile Tab: 4 layers, current edit layer picked at top of dialog.  Class & Basic defaults (not editable)
+-- Display settings are either character specific or shared.  No layering.
+-- Fixed frame strata for bar & popup
+-- Seperated code for ChooseCategory and ConfigSlot.
+-- Some lua changes for 2.0
+-- Hourglass Sand
+-- Casting Cursor used for button interaction
+-- Removed custom item insertion.  Cumbersome and not needed if u can drag & drop.
+-- Align center button is not functional.  Renamed from "reverse buttons"
+-- Slots tab for editing character or shared slots.  Old slots section is now display only, still needs work.
+
+-- 1.12.03
+-- Korean thanks to Sayclub
+-- Disabled code that hid character buttons when docking to main menu.  These have unintended side effects.
+
+-- 1.12.02.05
+-- Chinese Simplified & Traditional (Thanks PDI175)
+-- Fixed some typos in localization.
+
+-- 1.12.02.04
+-- Pet feed on right click should now work.  Tx Kerrang.  Still need to upgrade the pet food category handling itself.
+
+-- 1.12.02.03
+-- Fixed onload issue that broke slash commands
+-- AutoBar now dismisses with the escape key as it should
+-- Added click for config show / hide
+
+-- 1.12.02.02
+-- New 1.12 function ClearCursor() called after drag & drop.
+-- Juju
+-- First cut of tabbed interface for config
+-- 24 buttons
+-- Arathi Basin Field Ration
+-- Config dialog is now draggable
+-- Hunter Pet Food & Feeding
+-- First cut at blizzard style dialog.  A frustrating thing as texcoords don't act as expected.
+
+-- 1.12.02
+-- Dock to is now list based with a drop down.  I will make the drop down pretty some other time.  Needs settings for various bars.
+-- Empty Slot button added.
+-- Popup Z order increased so its in front of other mods
+
+-- 1.12.01
+-- Chinese Simplified & Traditional (Thanks PDI175)
+-- TOC updated.
+-- Fixed plain buttons bug
+-- Improved config layout for Korean.
+
+-- 1.11.16.01
+-- Fixed popup click bug.  Apparently mouseup events do not allow casting like click events.  Strange.
+-- Disabled some config checkboxes for single category slots.  Fixes crash.
+-- Fixed keybinding screwup.
+-- Some more hunter pet foods added.  meats aren't done yet.
+-- Added a drag handle for the bar.  Left click to lock right click to bring up options.  Handle can be hidden.
+-- Slot specific option to disable popup.
+-- Slot specific option to rearrange category priority on use.
+-- Increased max popup buttons to 12.
+
+-- 1.11.15.04
+-- Done button on config panel to avoid confusion.
+-- Option to show Category Icon for slots with 0 item count.  Displayed dark & with -- to distinguish them from regular slots.
+-- Scale item count, hotKey and Cooldown Clock text beyond size 36 and up to size 72
+-- First cut at a popup list for slots with 2 or more available items
+-- Added some unsorted items to pet foods.  These will be broken till sorted.
+-- Config for popup direction
+-- Fixed popup button scaling
+-- Popup on modifier key
+-- Popup disable
+-- Tooltip for popup buttons
+-- Added Jungle Remedy
+-- Popup hit rect overlap fixed
+
+-- 1.11.14.03
+-- New User / deleted wtf config file bug fix.  tx Xavior for finding it.
+-- Ahn Qirajh translation for Chinese. Thanks PDI175.
+-- Typo fixed
+-- Working Korean I think.  Thanks to Sayclub
+
+-- 1.11.13
+-- Deutch! Ser gut Teodred!
+
+-- 1.11.12
+-- Korean thanks to Sayclub!
+
+-- 1.11.11
+-- Ooh, Traditional Chinese thanks to PDI175
+-- Roasted Quail added to pet meats
+-- Use the highest priority item for the icon.  (ie. the bottom one in the category list).
+
+-- 1.11.10
+-- More Drag & Drop: rearrange button categories now as well
+-- Drag from inventory into a button's items (or click on an item then click on category button)
+-- Potions: Holy Protection, Agility, Strength, Fortitude, Intellect, Wisdom, Defense, Troll Blood
+
+-- 1.11.09
+-- Anti-Venom
+-- Global smart self cast checkbox
+-- Scrolls of Agility, Intellect, Protection, Stamina, Strength, Spirit
+-- Food categories for no bonus food so hunters can feed themselves
+
+-- 1.11.08
+-- Drag & Drop to rearrange slot category order in the config dialog.
+-- Close button added to config
+-- Updated some category icons.
+
+-- 1.11.07
+-- Row & column sliders in the config panel are now freely slideable.
+
+-- 1.11.06
+-- Fixed glitch at 6 columns
+
+-- 1.11.05
+-- Friendship Bread, Freshly Squeezed Lemonade, Wildvine Potion, Sagefish Delight, Smoked Sagefish
+-- Dirge's Kickin' Chimaerok Chops,
+-- Fixed: Essence Mango,
+
+-- 1.11.04
+-- Reset to default button for the buttons
+-- Hide tooltips option
+-- Demonic and Dark Runes, Battle Standards, Invulnerability Potions
+
+-- 1.11.03.01
+-- Deathcharger's Reins, Qiraji Mounts
+-- Reworked defaults a bit.
+
+-- 1.11.02
+-- Mojos of Zanza & essence mangos; arcane, fire, frost, nature, shadow, spell Protection Potions.
+-- Dreamless sleep
+-- First cut of cooldown.
+
+-- 1.11.01
+-- Added new AD oil & sharpening stone.
+-- Expand up to 18 buttons.
+-- Rolled in the nurfed version's changes for pvp potions
+-- Chocolate Square
+
+--  2006.03.31
+--    Minor category changes
+-- Last version by Saien

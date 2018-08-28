@@ -8,7 +8,7 @@
 
 AutoBarItemList = {};
 
-local L = AceLibrary("AceLocale-2.1"):GetInstance("AutoBar", true);
+local L = AceLibrary("AceLocale-2.2"):new("AutoBar")
 local PT = PeriodicTableEmbed:GetInstance("1");
 
 

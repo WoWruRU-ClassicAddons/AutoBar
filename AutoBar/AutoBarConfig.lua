@@ -9,7 +9,7 @@
 
 AutoBarConfig = {};
 
-local L = AceLibrary("AceLocale-2.1"):GetInstance("AutoBar", true);
+local L = AceLibrary("AceLocale-2.2"):new("AutoBar")
 local Compost = AceLibrary("Compost-2.0");
 local dewdrop = AceLibrary("Dewdrop-2.0")
 AutoBarConfig.editPlayer = "_SHARED1";

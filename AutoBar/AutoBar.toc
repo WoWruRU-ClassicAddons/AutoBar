@@ -1,32 +1,26 @@
 ﻿## Interface: 11200
 ## Title: AutoBar |cff7fff7f -Ace2-|r
-## Version: 1.12.06.10 beta
-## DefaultState: enabled
 ## Notes: Configurable set of buttons that automatically displays configured items in your pack for use. Intended primarily for consumables. Does not use up any action slots so you can save those for spells and abilities.
-## Notes-ruRU: Динамические панели с кнопками, которые автоматически добавляют зелья, воду, пищу и другие предметы для котрых вы определяете кнопки для использования. Не использует слоты на панеле команд.
+## Notes-ruRU: Настраиваемый набор кнопок, который автоматически отображает настроенные элементы. Предназначен в первую очередь для расходных материалов. Не использует никаких игровых слотов, поэтому вы можете сохранить их для заклинаний и способностей.
 ## Notes-koKR: 가방안에 있는 소모성 아이템들을 조사하여 별도의 창에 표시합니다.
 ## Notes-zhCN: 一组可配置的按钮，能自动从背包中寻找设定的物品供方便使用。
 ## Notes-zhTW: 一組可配置的按鈕，能自動從背包中尋找設定的物品供方便使用。
-## UIType: 动作条
-## UIType-zhTW: 動作條
+## Version: 1.12.06.10 beta
 ## Author: Toadkiller
 ## SavedVariables: AutoBar_Config
 ## X-Category: Interface Enhancements
-## X-Website: http://www.curse-gaming.com/en/wow/addons-4430-1-autobar-toadkiller.html
-## X-RelSite-Curse: 4430
 ## X-Credits: Saien the original author.  Sayclub (Korean), PDI175 (Chinese traditional and simplified), Teodred (German)
 ## OptionalDeps: Ace2, OmniCC, oSkin, CompostLib, DewdropLib, PeriodicTable, TabletLib
-## X-Embeds: Ace2, CompostLib, DewdropLib, PeriodicTable, TabletLib
-## RequiredDeps: !Libs
+## Dependencites: !Libs
 
 # Core
 Locale\Locale-enUS.lua
-Locale\Locale-ruRU.lua
 Locale\Locale-koKR.lua
 Locale\Locale-zhCN.lua
 Locale\Locale-zhTW.lua
 Locale\Locale-deDE.lua
 Locale\Locale-frFR.lua
+Locale\Locale-ruRU.lua
 
 AutoBarItemList.lua
 Core.lua
